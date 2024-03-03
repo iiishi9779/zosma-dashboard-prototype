@@ -1,13 +1,21 @@
-import { createApp } from 'vue'
+import { createApp, provide, ref } from 'vue'
 import { Quasar } from 'quasar'
 import { createRouter, createWebHistory } from 'vue-router'
-import '@quasar/extras/material-icons/material-icons.css'
 import 'quasar/src/css/index.sass'
 import App from './App.vue'
+
+import quasarIconSet from 'quasar/icon-set/material-symbols-rounded'
+
+// Import icon libraries
+import '@quasar/extras/material-symbols-rounded/material-symbols-rounded.css'
+
+// Import Quasar css
+import 'quasar/src/css/index.sass'
 
 import Dashboard from './views/Dashboard.vue'
 import Branch from './views/Branch.vue'
 import Generator from './views/Generator.vue'
+
 
 const router = createRouter({
   history: createWebHistory(),
@@ -22,11 +30,12 @@ const router = createRouter({
   }]
 })
 
+
 const myApp = createApp(App).use(router)
 
 myApp.use(Quasar, {
   plugins: {
-    iconSet: 'material-symbols-outlined'
+    iconSet: quasarIconSet
   },
 })
 

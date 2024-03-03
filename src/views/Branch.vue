@@ -14,6 +14,7 @@ function navGen(generatorId) {
 }
 
 </script>
+
 <template>
   <q-dialog :model-value="true" position="right" no-route-dismiss @hide="router.push('/')">
     <q-card class="full-height relative-position" style="min-width: 960px;">
@@ -21,9 +22,9 @@ function navGen(generatorId) {
         <div class="row q-my-md justify-between items-center">
           <div class="text-subtitle1 text-weight-medium text-uppercase">A. Branch Name</div>
           <div class="date-picker">
-            <q-icon name="date_range" />
+            <q-icon name="sym_r_date_range" />
             <span>25 February 2024</span>
-            <q-icon name="arrow_forward" />
+            <q-icon name="sym_r_arrow_forward" />
             <span>25 March 2024</span>
           </div>
         </div>
@@ -78,7 +79,8 @@ function navGen(generatorId) {
       </div>
       <q-card class="generator-panel absolute-bottom">
         <q-tabs align="left">
-          <q-tab v-for="generator in generators" :key="generator.name" v-bind="generator" @click="navGen(generator.id)" />
+          <q-tab v-for="generator in generators" :key="generator.name" v-bind="generator"
+            @click="navGen(generator.id)" />
         </q-tabs>
         <router-view></router-view>
       </q-card>

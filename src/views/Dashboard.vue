@@ -1,6 +1,10 @@
 <script setup>
+import { BranchExtractor } from '../functions/branch-extractor.js'
+
+console.log(BranchExtractor)
 
 </script>
+
 <template>
   <q-page padding>
     <div class="q-ma-lg dashboard-header">
