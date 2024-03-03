@@ -1,56 +1,80 @@
 <script setup>
-import { ref } from "vue"
-import report from "../../public/report.json"
+import { ref, inject } from "vue"
+import { useRoute } from 'vue-router'
 import IssueDialog from "./IssueDialog.vue"
-const reportRef = ref(report)
+import { getBranchData, getGeneratorData } from "../functions/branch-extractor"
 
-console.log(reportRef.value.issueCount)
-reportRef.value.issueCount = 100
-console.log(reportRef.value.issueCount)
+const route = useRoute()
+
+const reportData = inject('report')
+
+const { dashboardBranchId: branchId, dashboardGeneratorId: generatorId } = route.params
+
+const branchData = getBranchData(branchId, reportData)
+const data = getGeneratorData(generatorId, branchData)
 
 const openDialog = ref(false)
-
 </script>
 
 <template>
-  <div class="row col q-ma-md q-gutter-md">
+  <div class="q-px-lg">
+    <div class="row justify-end">
+      <q-btn label="Add Log" @click="openDialog = true"></q-btn>
+    </div>
+    <div class="row q-gutter-md">
+      <div class="col">
+          <div class="col">
+            <fieldset class="col-5 generator-details q-mb-sm">
+              <legend>Generator Details</legend>
+              <div class="row">
+                <span class="col-6">serial No.</span>
+                <span class="col q-pl-lg">{{ data.serialNumber }}</span>
+              </div>
+              <hr>
+              <div class="row">
+                <span class="col-6">model no.</span>
+                <span class="col q-pl-lg">{{ data.model }}</span>
+              </div>
+              <hr>
+              <div class="row">
+                <span class="col-6">Genset (Brand)</span>
+                <span class="col q-pl-lg">{{ data.brand }}</span>
+              </div>
+              <hr>
+              <div class="row">
+                <span class="col-6">Capacity (available / install)</span>
+                <div class="col q-pl-lg">
+                  <span>{{ data.availableCapacity }} / {{ data.installedCapacity }}</span>
+                  <span class="q-pl-sm">({{ Math.round(data.availableCapacity /
+                    data.installCapacity *
+                    100) }}%)</span>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+    </div>
     <div class="col">
       <fieldset class="col-5 generator-details q-mb-sm">
-        <legend>Generator Details</legend>
+        <legend>Generator Status</legend>
         <div class="row">
-          <span class="col-6">serial No.</span>
-          <span class="col q-pl-lg">41214138</span>
+          <span class="col-6">State</span>
+          <span class="col q-pl-lg">{{ data.statusLogs[0].state }}</span>
         </div>
         <hr>
         <div class="row">
-          <span class="col-6">model no.</span>
-          <span class="col q-pl-lg">KTA38-G2</span>
+          <span class="col-6">Title</span>
+          <span class="col q-pl-lg">{{ data.statusLogs[0].title }}</span>
         </div>
         <hr>
         <div class="row">
-          <span class="col-6">Genset (Brand)</span>
-          <span class="col q-pl-lg">CUMMINS</span>
-        </div>
-        <hr>
-        <div class="row">
-          <span class="col-6">Capacity (available / install)</span>
-          <div class="col q-pl-lg">
-            <span>450 / 600</span>
-            <span class="q-pl-sm">(40%)</span>
-          </div>
+          <span class="col-6">Description</span>
+          <span class="col q-pl-lg">{{ data.statusLogs[0].description }}</span>
         </div>
       </fieldset>
-      <q-btn label="Add issue" @click="openDialog = true"></q-btn>
-      <issue-dialog v-model="openDialog"></issue-dialog>
     </div>
-
-    <q-scroll-area class="col q-pl-lg">
-      <div v-for="value in new Array(4).fill(0)" class="row justify-between q-mb-sm q-py-sm q-px-md bg-blue-grey-2">
-        <div class="col">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
-        <div class="col-3 text-right">12/02/24 - 12:45</div>
-      </div>
-    </q-scroll-area>
+    </div>
   </div>
+  <issue-dialog v-model="openDialog"></issue-dialog>
 </template>
 
 <style lang="scss"></style>

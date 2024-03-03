@@ -1,3 +1,34 @@
+export function getBranchData(branchId, reportData) {
+  return reportData.branches.find(branch => branch.id == branchId)
+}
+
+export function getGeneratorData(generatorId, branchData) {
+  return branchData.generators.find(generator => generator.id == generatorId)
+}
+
+function getGeneratorLoadSorted({ from, to }, generatorData) {
+  return generatorData.dailyLogs.filter(log => {
+    return new Date(log.date) >= new Date(from) && new Date(log.date) <= new Date(to)
+  }).sort((a, b) => a.load - b.load)
+}
+
+export function getBranchLoad(dateRange, branchData) {
+  const loads = []
+  const generatorLoads = []
+  let capacity = 0
+
+  branchData.generators.forEach((generator) => {
+    const loadData = getGeneratorLoadSorted(dateRange, generator)
+    loads.push(loadData[0], loadData[loadData.length - 1])
+    generatorLoads.push({ generatorId: generator.id, min: loadData[0], max: loadData[loadData.length - 1] })
+    capacity += generator.availableCapacity
+  })
+
+  loads.sort((a, b) => a.load - b.load)
+
+  return { capacity, min: loads[0], max: loads[loads.length - 1], generatorLoadData: generatorLoads }
+}
+
 export class BranchExtractor {
   constructor() {
     this.branch = null

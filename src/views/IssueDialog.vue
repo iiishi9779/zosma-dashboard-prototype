@@ -1,13 +1,22 @@
 <template>
   <q-dialog ref="dialogRef" @hide="onDialogHide">
-    <q-card class="q-dialog-plugin">
-      <q-card-section>
-        <q-input v-model="issue" filled type="file"></q-input>
+    <q-card style="width: 480px;">
+      <q-card-section class="row items-center">
+        <div class="text-h6">Add Log</div>
+        <q-btn class="q-ml-auto" round dense flat icon="close" v-close-popup />
       </q-card-section>
-      <q-card-actions align="right">
-        <q-btn color="primary" label="OK" @click="onOKClick" />
-        <q-btn color="primary" label="Cancel" @click="onDialogCancel" />
-      </q-card-actions>
+      
+      <q-card-section>
+        <q-form @submit="submitForm" class="q-gutter-md">
+          <q-input filled v-model="title" label="Title" />
+          <q-select filled v-model="status" :options="statusList" label="Status" />
+          <q-select filled v-model="state" :options="stateList" label="State" />
+          <q-input filled type="textarea" v-model="description" label="Description" />
+          <q-card-actions align="right">
+            <q-btn class="col" type="submit" label="Submit" color="primary" />
+          </q-card-actions>
+        </q-form>
+      </q-card-section>
     </q-card>
   </q-dialog>
 </template>
@@ -16,8 +25,8 @@
 import { useDialogPluginComponent } from 'quasar'
 import { ref } from 'vue'
 
-const props = defineProps({
-})
+const stateList = ['running', 'stopped']
+const statusList = ['healthy', 'issue']
 
 defineEmits([
   ...useDialogPluginComponent.emits
