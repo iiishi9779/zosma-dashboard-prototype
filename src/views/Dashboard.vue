@@ -44,12 +44,11 @@ const issues = computed(() => {
     </div>
 
     <div class="row q-pa-lg q-gutter-lg" style="min-height: inherit;">
-      <!-- <q-input filled dense label="Search for Branches" /> -->
 
       <q-scroll-area class="col">
         <div class="q-gutter-md">
           <router-link v-for="branch in  data.branches " v-bind="$props" custom v-slot="{ isActive, navigate, href }"
-          :to="`/branch/${branch.id}/generator/${branch.generators[0].id}`">
+            :to="`/branch/${branch.id}/generator/${branch.generators[0].id}`">
             <q-card v-bind="$attrs" :href="href" @click="navigate" :class="isActive ? '' : ''" flat bordered>
               <q-card-section>
                 <div class="text-subtitle1 q-mb-sm">{{ branch.name }}</div>
@@ -70,19 +69,23 @@ const issues = computed(() => {
 
       <q-scroll-area class="col">
         <div class="q-gutter-sm">
-          <q-card v-for="   log    in   issues    " flat bordered>
-            <q-card-section>
-              <div class="row justify-between">
-                <div class="text-subtitle2">{{ log.name }}</div>
-                <div class="text-subtitle2">2 days ago</div>
-              </div>
-              <div class="q-pa-sm q-mt-sm bg-amber-1">{{ log.generators[0].statusLog.title }}</div>
-            </q-card-section>
-          </q-card>
+          <router-link v-for="   log    in   issues    " v-bind="$props" custom v-slot="{ isActive, navigate, href }"
+            :to="`/branch/${log.generators[0].branchId}/generator/${log.generators[0].statusLog.generatorId}`">
+            <q-card v-bind="$attrs" :href="href" @click="navigate" :class="isActive ? '' : ''" flat bordered>
+              <q-card-section>
+                <div class="row justify-between">
+                  <div class="text-subtitle2">{{ log.name }}</div>
+                  <div class="text-subtitle2">2 days ago</div>
+                </div>
+                <div class="q-pa-sm q-mt-sm bg-amber-1">{{ log.generators[0].statusLog.title }}</div>
+              </q-card-section>
+            </q-card>
+          </router-link>
         </div>
       </q-scroll-area>
     </div>
     <RouterView v-slot="{ Component }">
+
       <template v-if="Component">
         <Suspense>
           <component :is="Component"></component>
