@@ -1,1 +1,1641 @@
-{"branchCount":14,"generatorCount":71,"issueCount":1,"stoppedWithIssueCount":1,"runningWithIssueCount":0,"stoppedWithIssue":[{"id":15,"name":"Uligam","generators":[{"id":53,"branchId":15,"name":"G1","brand":"VOLVO","model":"6CTAA4","serialNumber":"1709533921727","statusLog":{"id":338,"generatorId":55,"date":"2024-03-30T20:30:00.000Z","state":"stopped","status":"issues","title":"Generator Overload","description":"automatic shutdown due to exceeded capacity but with in safe level"}}]}],"runningWithIssue":[],"branches":[{"id":6,"name":"Baarah","generators":[{"id":1,"branchId":6,"name":"G1","brand":"VOLVO","model":"6CTAA3","serialNumber":"1709490512925","statusLog":{"id":21,"generatorId":3,"date":"2024-03-31T05:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":2,"branchId":6,"name":"G2","brand":"VOLVO","model":"NTA19","serialNumber":"1709491347709","statusLog":{"id":22,"generatorId":3,"date":"2024-01-01T00:00:00.000Z","state":"running","status":"healthy","title":"routine check and found healthy","description":"routine check and found healthy"}},{"id":3,"branchId":6,"name":"G3","brand":"VOLVO","model":"6CTAA4","serialNumber":"1709492182493","statusLog":{"id":25,"generatorId":3,"date":"2024-02-21T18:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}}]},{"id":7,"name":"Filladhoo","generators":[{"id":4,"branchId":7,"name":"G1","brand":"CUMMINS","model":"6CTA6-G1","serialNumber":"1709493017281","statusLog":{"id":38,"generatorId":10,"date":"2024-03-24T23:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":5,"branchId":7,"name":"G2","brand":"CUMMINS","model":"QSL7","serialNumber":"1709493852065","statusLog":{"id":41,"generatorId":10,"date":"2024-02-21T13:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":6,"branchId":7,"name":"G3","brand":"VOLVO","model":"KTA40-G3","serialNumber":"1709494686849","statusLog":{"id":50,"generatorId":10,"date":"2024-03-25T18:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":7,"branchId":7,"name":"G4","brand":"CUMMINS","model":"NT-822-G4","serialNumber":"1709495521633","statusLog":{"id":57,"generatorId":10,"date":"2024-03-02T20:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":8,"branchId":7,"name":"G5","brand":"CUMMINS","model":"NT-814","serialNumber":"1709496356417","statusLog":{"id":62,"generatorId":10,"date":"2024-03-07T20:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":9,"branchId":7,"name":"G6","brand":"VOLVO","model":"KTA17","serialNumber":"1709497191201","statusLog":{"id":67,"generatorId":10,"date":"2024-01-29T11:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":10,"branchId":7,"name":"G7","brand":"VOLVO","model":"KTA25","serialNumber":"1709498025985","statusLog":{"id":76,"generatorId":10,"date":"2024-02-29T03:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}}]},{"id":8,"name":"Hoarafushi","generators":[{"id":11,"branchId":8,"name":"G1","brand":"CUMMINS","model":"QSL5","serialNumber":"1709498860774","statusLog":{"id":89,"generatorId":18,"date":"2024-03-31T17:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":12,"branchId":8,"name":"G2","brand":"VOLVO","model":"6CTAB.6","serialNumber":"1709499695558","statusLog":{"id":102,"generatorId":18,"date":"2024-03-12T02:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":13,"branchId":8,"name":"G3","brand":"CUMMINS","model":"6CTAB.3","serialNumber":"1709500530342","statusLog":{"id":105,"generatorId":18,"date":"2024-02-22T15:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":14,"branchId":8,"name":"G4","brand":"CUMMINS","model":"6CTAB.4","serialNumber":"1709501365126","statusLog":{"id":110,"generatorId":18,"date":"2024-01-13T07:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":15,"branchId":8,"name":"G5","brand":"CUMMINS","model":"6CTA3","serialNumber":"1709502199910","statusLog":{"id":121,"generatorId":18,"date":"2024-03-27T04:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":16,"branchId":8,"name":"G6","brand":"CUMMINS","model":"KTA25","serialNumber":"1709503034694","statusLog":{"id":128,"generatorId":18,"date":"2024-03-07T13:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":17,"branchId":8,"name":"G7","brand":"VOLVO","model":"6CTA3-G7","serialNumber":"1709503869478","statusLog":{"id":133,"generatorId":18,"date":"2024-03-17T04:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":18,"branchId":8,"name":"G8","brand":"VOLVO","model":"6CTAA9","serialNumber":"1709504704262","statusLog":{"id":140,"generatorId":18,"date":"2024-02-28T23:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}}]},{"id":9,"name":"Ihavandhoo","generators":[{"id":19,"branchId":9,"name":"G1","brand":"CUMMINS","model":"6CTA4","serialNumber":"1709505539051","statusLog":{"id":143,"generatorId":23,"date":"2024-02-24T19:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":20,"branchId":9,"name":"G2","brand":"VOLVO","model":"NT-809","serialNumber":"1709506373835","statusLog":{"id":144,"generatorId":23,"date":"2024-01-01T00:00:00.000Z","state":"running","status":"healthy","title":"routine check and found healthy","description":"routine check and found healthy"}},{"id":21,"branchId":9,"name":"G3","brand":"VOLVO","model":"6CTAB.7-G3","serialNumber":"1709507208619","statusLog":{"id":151,"generatorId":23,"date":"2024-02-23T09:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":22,"branchId":9,"name":"G4","brand":"VOLVO","model":"NTA12","serialNumber":"1709508043403","statusLog":{"id":152,"generatorId":23,"date":"2024-01-01T00:00:00.000Z","state":"running","status":"healthy","title":"routine check and found healthy","description":"routine check and found healthy"}},{"id":23,"branchId":9,"name":"G5","brand":"VOLVO","model":"NTA12-G5","serialNumber":"1709508878187","statusLog":{"id":155,"generatorId":23,"date":"2024-01-07T20:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}}]},{"id":10,"name":"Maarandhoo","generators":[{"id":24,"branchId":10,"name":"G1","brand":"VOLVO","model":"QSL1","serialNumber":"1709509712974","statusLog":{"id":162,"generatorId":28,"date":"2024-03-27T07:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":25,"branchId":10,"name":"G2","brand":"CUMMINS","model":"NTA18","serialNumber":"1709510547758","statusLog":{"id":173,"generatorId":28,"date":"2024-02-05T15:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":26,"branchId":10,"name":"G3","brand":"CUMMINS","model":"6CTAA3-G3","serialNumber":"1709511382542","statusLog":{"id":176,"generatorId":28,"date":"2024-03-31T23:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":27,"branchId":10,"name":"G4","brand":"VOLVO","model":"6CTA3","serialNumber":"1709512217326","statusLog":{"id":189,"generatorId":28,"date":"2024-03-21T02:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":28,"branchId":10,"name":"G5","brand":"CUMMINS","model":"NT-801","serialNumber":"1709513052110","statusLog":{"id":192,"generatorId":28,"date":"2024-02-14T01:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}}]},{"id":11,"name":"Molhadhoo","generators":[{"id":29,"branchId":11,"name":"G1","brand":"VOLVO","model":"NT-876","serialNumber":"1709513886897","statusLog":{"id":203,"generatorId":34,"date":"2024-02-24T06:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":30,"branchId":11,"name":"G2","brand":"VOLVO","model":"6CTA7","serialNumber":"1709514721681","statusLog":{"id":206,"generatorId":34,"date":"2024-01-23T09:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":31,"branchId":11,"name":"G3","brand":"VOLVO","model":"NTA14","serialNumber":"1709515556465","statusLog":{"id":209,"generatorId":34,"date":"2024-03-17T01:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":32,"branchId":11,"name":"G4","brand":"CUMMINS","model":"QSL1","serialNumber":"1709516391249","statusLog":{"id":218,"generatorId":34,"date":"2024-03-30T11:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":33,"branchId":11,"name":"G5","brand":"CUMMINS","model":"NT-894","serialNumber":"1709517226033","statusLog":{"id":219,"generatorId":34,"date":"2024-01-01T00:00:00.000Z","state":"running","status":"healthy","title":"routine check and found healthy","description":"routine check and found healthy"}},{"id":34,"branchId":11,"name":"G6","brand":"VOLVO","model":"KTA9","serialNumber":"1709518060817","statusLog":{"id":224,"generatorId":34,"date":"2024-03-18T12:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}}]},{"id":12,"name":"Muraidhoo","generators":[{"id":35,"branchId":12,"name":"G1","brand":"VOLVO","model":"NT-864","serialNumber":"1709518895604","statusLog":{"id":233,"generatorId":42,"date":"2024-03-28T17:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":36,"branchId":12,"name":"G2","brand":"CUMMINS","model":"KTA7","serialNumber":"1709519730388","statusLog":{"id":238,"generatorId":42,"date":"2024-02-04T21:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":37,"branchId":12,"name":"G3","brand":"VOLVO","model":"6CTA5-G3","serialNumber":"1709520565172","statusLog":{"id":243,"generatorId":42,"date":"2024-03-28T10:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":38,"branchId":12,"name":"G4","brand":"CUMMINS","model":"6CTAA5","serialNumber":"1709521399956","statusLog":{"id":252,"generatorId":42,"date":"2024-02-22T10:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":39,"branchId":12,"name":"G5","brand":"VOLVO","model":"KTA5-G5","serialNumber":"1709522234740","statusLog":{"id":259,"generatorId":42,"date":"2024-03-14T13:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":40,"branchId":12,"name":"G6","brand":"VOLVO","model":"6CTAA5","serialNumber":"1709523069524","statusLog":{"id":264,"generatorId":42,"date":"2024-03-15T16:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":41,"branchId":12,"name":"G7","brand":"CUMMINS","model":"6CTAA5","serialNumber":"1709523904308","statusLog":{"id":271,"generatorId":42,"date":"2024-01-24T12:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":42,"branchId":12,"name":"G8","brand":"VOLVO","model":"6CTAA7","serialNumber":"1709524739092","statusLog":{"id":272,"generatorId":42,"date":"2024-01-01T00:00:00.000Z","state":"running","status":"healthy","title":"routine check and found healthy","description":"routine check and found healthy"}}]},{"id":13,"name":"Thakandhoo","generators":[{"id":43,"branchId":13,"name":"G1","brand":"VOLVO","model":"NTA15","serialNumber":"1709525573881","statusLog":{"id":279,"generatorId":46,"date":"2024-03-20T11:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":44,"branchId":13,"name":"G2","brand":"VOLVO","model":"NT-809","serialNumber":"1709526408665","statusLog":{"id":288,"generatorId":46,"date":"2024-02-29T05:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":45,"branchId":13,"name":"G3","brand":"VOLVO","model":"NT-817","serialNumber":"1709527243449","statusLog":{"id":295,"generatorId":46,"date":"2024-01-17T10:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":46,"branchId":13,"name":"G4","brand":"VOLVO","model":"NTA16","serialNumber":"1709528078233","statusLog":{"id":296,"generatorId":46,"date":"2024-01-01T00:00:00.000Z","state":"running","status":"healthy","title":"routine check and found healthy","description":"routine check and found healthy"}}]},{"id":14,"name":"Thuraakunu","generators":[{"id":47,"branchId":14,"name":"G1","brand":"CUMMINS","model":"QSL2","serialNumber":"1709528913019","statusLog":{"id":305,"generatorId":52,"date":"2024-03-12T14:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":48,"branchId":14,"name":"G2","brand":"VOLVO","model":"QSL2","serialNumber":"1709529747803","statusLog":{"id":310,"generatorId":52,"date":"2024-02-04T04:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":49,"branchId":14,"name":"G3","brand":"VOLVO","model":"NT-854-G3","serialNumber":"1709530582587","statusLog":{"id":319,"generatorId":52,"date":"2024-03-06T01:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":50,"branchId":14,"name":"G4","brand":"VOLVO","model":"KTA20","serialNumber":"1709531417371","statusLog":{"id":322,"generatorId":52,"date":"2024-01-14T21:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":51,"branchId":14,"name":"G5","brand":"VOLVO","model":"NT-877","serialNumber":"1709532252155","statusLog":{"id":327,"generatorId":52,"date":"2024-01-19T13:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":52,"branchId":14,"name":"G6","brand":"VOLVO","model":"NTA20","serialNumber":"1709533086939","statusLog":{"id":330,"generatorId":52,"date":"2024-01-29T10:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}}]},{"id":15,"name":"Uligam","generators":[{"id":53,"branchId":15,"name":"G1","brand":"VOLVO","model":"6CTAA4","serialNumber":"1709533921727","statusLog":{"id":338,"generatorId":55,"date":"2024-03-30T20:30:00.000Z","state":"stopped","status":"issues","title":"Generator Overload","description":"automatic shutdown due to exceeded capacity but with in safe level"}},{"id":54,"branchId":15,"name":"G2","brand":"CUMMINS","model":"6CTA4","serialNumber":"1709534756511","statusLog":{"id":341,"generatorId":55,"date":"2024-03-10T11:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":55,"branchId":15,"name":"G3","brand":"CUMMINS","model":"6CTA6-G3","serialNumber":"1709535591295","statusLog":{"id":348,"generatorId":55,"date":"2024-02-17T19:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}}]},{"id":16,"name":"Vashafaru","generators":[{"id":56,"branchId":16,"name":"G1","brand":"VOLVO","model":"6CTAA7-G1","serialNumber":"1709536426080","statusLog":{"id":349,"generatorId":59,"date":"2024-01-01T00:00:00.000Z","state":"running","status":"healthy","title":"routine check and found healthy","description":"routine check and found healthy"}},{"id":57,"branchId":16,"name":"G2","brand":"CUMMINS","model":"QSL4","serialNumber":"1709537260864","statusLog":{"id":366,"generatorId":59,"date":"2024-03-29T03:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":58,"branchId":16,"name":"G3","brand":"VOLVO","model":"6CTA9","serialNumber":"1709538095648","statusLog":{"id":377,"generatorId":59,"date":"2024-03-23T10:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":59,"branchId":16,"name":"G4","brand":"VOLVO","model":"KTA10","serialNumber":"1709538930432","statusLog":{"id":386,"generatorId":59,"date":"2024-03-09T13:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}}]},{"id":49,"name":"Dhidhdhoo","generators":[{"id":60,"branchId":49,"name":"G1","brand":"CUMMINS","model":"6CTAA9","serialNumber":"1709539765219","statusLog":{"id":391,"generatorId":65,"date":"2024-01-18T04:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":61,"branchId":49,"name":"G2","brand":"CUMMINS","model":"KTA14","serialNumber":"1709540600003","statusLog":{"id":392,"generatorId":65,"date":"2024-01-01T00:00:00.000Z","state":"running","status":"healthy","title":"routine check and found healthy","description":"routine check and found healthy"}},{"id":62,"branchId":49,"name":"G3","brand":"CUMMINS","model":"6CTAA9","serialNumber":"1709541434787","statusLog":{"id":397,"generatorId":65,"date":"2024-03-14T03:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":63,"branchId":49,"name":"G4","brand":"CUMMINS","model":"6CTAA7","serialNumber":"1709542269571","statusLog":{"id":408,"generatorId":65,"date":"2024-03-14T03:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":64,"branchId":49,"name":"G5","brand":"CUMMINS","model":"NTA19","serialNumber":"1709543104355","statusLog":{"id":431,"generatorId":65,"date":"2024-03-29T09:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":65,"branchId":49,"name":"G6","brand":"VOLVO","model":"NTA12","serialNumber":"1709543939139","statusLog":{"id":434,"generatorId":65,"date":"2024-03-28T09:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}}]},{"id":50,"name":"Kelaa","generators":[{"id":66,"branchId":50,"name":"G1","brand":"CUMMINS","model":"6CTAA4","serialNumber":"1709544773927","statusLog":{"id":435,"generatorId":68,"date":"2024-01-01T00:00:00.000Z","state":"running","status":"healthy","title":"routine check and found healthy","description":"routine check and found healthy"}},{"id":67,"branchId":50,"name":"G2","brand":"CUMMINS","model":"6CTA3","serialNumber":"1709545608711","statusLog":{"id":440,"generatorId":68,"date":"2024-03-22T11:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":68,"branchId":50,"name":"G3","brand":"CUMMINS","model":"6CTA4","serialNumber":"1709546443495","statusLog":{"id":441,"generatorId":68,"date":"2024-01-01T00:00:00.000Z","state":"running","status":"healthy","title":"routine check and found healthy","description":"routine check and found healthy"}}]},{"id":51,"name":"Utheem","generators":[{"id":69,"branchId":51,"name":"G1","brand":"VOLVO","model":"KTA21","serialNumber":"1709547278281","statusLog":{"id":444,"generatorId":71,"date":"2024-02-14T04:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":70,"branchId":51,"name":"G2","brand":"CUMMINS","model":"6CTAA4-G2","serialNumber":"1709548113065","statusLog":{"id":453,"generatorId":71,"date":"2024-03-25T12:00:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}},{"id":71,"branchId":51,"name":"G3","brand":"CUMMINS","model":"6CTAB.6","serialNumber":"1709548947849","statusLog":{"id":472,"generatorId":71,"date":"2024-03-14T07:30:00.000Z","state":"running","status":"healthy","title":"Conducted Maintenance Service","description":"conducted maintenance service diagnostic tests. results found healthy"}}]}]}
+{
+  "branchCount": 14,
+  "generatorCount": 79,
+  "issueCount": 9,
+  "stoppedWithIssueCount": 7,
+  "runningWithIssueCount": 2,
+  "stoppedWithIssue": [
+    {
+      "id": 7,
+      "name": "Filladhoo",
+      "generators": [
+        {
+          "id": 10,
+          "branchId": 7,
+          "name": "G3",
+          "brand": "CUMMINS",
+          "model": "QSL6",
+          "serialNumber": "1709534323859",
+          "statusLog": {
+            "id": 71,
+            "generatorId": 15,
+            "date": "2024-03-30T13:30:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Abnormal Combustion",
+            "description": "automatic shutdown due to frequent abnormal combustion past safe level"
+          }
+        },
+        {
+          "id": 12,
+          "branchId": 7,
+          "name": "G5",
+          "brand": "CUMMINS",
+          "model": "NTA10",
+          "serialNumber": "1709535993427",
+          "statusLog": {
+            "id": 84,
+            "generatorId": 15,
+            "date": "2024-03-31T14:00:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Stopped For Maintenance",
+            "description": "manual shutdown to conduct maintenance and diagnostic tests"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ihavandhoo",
+      "generators": [
+        {
+          "id": 24,
+          "branchId": 9,
+          "name": "G2",
+          "brand": "CUMMINS",
+          "model": "QSL7",
+          "serialNumber": "1709546010850",
+          "statusLog": {
+            "id": 157,
+            "generatorId": 29,
+            "date": "2024-03-29T23:30:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Electrical Faults",
+            "description": "automatic shutdown due to short circuits"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Molhadhoo",
+      "generators": [
+        {
+          "id": 36,
+          "branchId": 11,
+          "name": "G4",
+          "brand": "VOLVO",
+          "model": "NT-897",
+          "serialNumber": "1709556028268",
+          "statusLog": {
+            "id": 246,
+            "generatorId": 40,
+            "date": "2024-03-31T07:30:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Low Oil Pressure",
+            "description": "automatic shutdown due to oil pressure dropping below safe level"
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Uligam",
+      "generators": [
+        {
+          "id": 56,
+          "branchId": 15,
+          "name": "G4",
+          "brand": "CUMMINS",
+          "model": "KTA32-G4",
+          "serialNumber": "1709572723968",
+          "statusLog": {
+            "id": 407,
+            "generatorId": 57,
+            "date": "2024-03-31T18:00:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Stopped For Maintenance",
+            "description": "manual shutdown to conduct maintenance and diagnostic tests"
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Vashafaru",
+      "generators": [
+        {
+          "id": 60,
+          "branchId": 16,
+          "name": "G3",
+          "brand": "CUMMINS",
+          "model": "QSL4",
+          "serialNumber": "1709576063110",
+          "statusLog": {
+            "id": 438,
+            "generatorId": 60,
+            "date": "2024-03-30T14:00:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Generator Overspeed",
+            "description": "automatic shutdown due to exceeded engine speed past safe level"
+          }
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Kelaa",
+      "generators": [
+        {
+          "id": 72,
+          "branchId": 50,
+          "name": "G4",
+          "brand": "VOLVO",
+          "model": "QSL7",
+          "serialNumber": "1709586080529",
+          "statusLog": {
+            "id": 527,
+            "generatorId": 74,
+            "date": "2024-03-25T20:30:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Cylinder Misfires",
+            "description": "automatic shutdown due to frequent cylinder misfires past safe level"
+          }
+        }
+      ]
+    }
+  ],
+  "runningWithIssue": [
+    {
+      "id": 6,
+      "name": "Baarah",
+      "generators": [
+        {
+          "id": 3,
+          "branchId": 6,
+          "name": "G3",
+          "brand": "VOLVO",
+          "model": "6CTAB.8",
+          "serialNumber": "1709528480359",
+          "statusLog": {
+            "id": 23,
+            "generatorId": 7,
+            "date": "2024-03-31T19:30:00.000Z",
+            "state": "running",
+            "status": "issues",
+            "title": "Started With Generator Overspeed",
+            "description": "running with exceeded engine speed but with in safe level"
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Thuraakunu",
+      "generators": [
+        {
+          "id": 49,
+          "branchId": 14,
+          "name": "G3",
+          "brand": "VOLVO",
+          "model": "KTA31",
+          "serialNumber": "1709566880474",
+          "statusLog": {
+            "id": 361,
+            "generatorId": 52,
+            "date": "2024-03-31T06:30:00.000Z",
+            "state": "running",
+            "status": "issues",
+            "title": "Started With Cylinder Misfires",
+            "description": "running with cylinder misfires with in safe level"
+          }
+        }
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": 6,
+      "name": "Baarah",
+      "generators": [
+        {
+          "id": 1,
+          "branchId": 6,
+          "name": "G1",
+          "brand": "CUMMINS",
+          "model": "QSL1",
+          "serialNumber": "1709526810791",
+          "statusLog": {
+            "id": 5,
+            "generatorId": 7,
+            "date": "2024-03-20T14:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 2,
+          "branchId": 6,
+          "name": "G2",
+          "brand": "CUMMINS",
+          "model": "KTA36-G2",
+          "serialNumber": "1709527645575",
+          "statusLog": {
+            "id": 18,
+            "generatorId": 7,
+            "date": "2024-03-23T02:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 3,
+          "branchId": 6,
+          "name": "G3",
+          "brand": "VOLVO",
+          "model": "6CTAB.8",
+          "serialNumber": "1709528480359",
+          "statusLog": {
+            "id": 23,
+            "generatorId": 7,
+            "date": "2024-03-31T19:30:00.000Z",
+            "state": "running",
+            "status": "issues",
+            "title": "Started With Generator Overspeed",
+            "description": "running with exceeded engine speed but with in safe level"
+          }
+        },
+        {
+          "id": 4,
+          "branchId": 6,
+          "name": "G4",
+          "brand": "CUMMINS",
+          "model": "6CTA5-G4",
+          "serialNumber": "1709529315143",
+          "statusLog": {
+            "id": 28,
+            "generatorId": 7,
+            "date": "2024-01-14T18:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 5,
+          "branchId": 6,
+          "name": "G5",
+          "brand": "VOLVO",
+          "model": "6CTA6",
+          "serialNumber": "1709530149927",
+          "statusLog": {
+            "id": 31,
+            "generatorId": 7,
+            "date": "2024-01-26T20:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 6,
+          "branchId": 6,
+          "name": "G6",
+          "brand": "CUMMINS",
+          "model": "QSL8",
+          "serialNumber": "1709530984711",
+          "statusLog": {
+            "id": 40,
+            "generatorId": 7,
+            "date": "2024-03-17T11:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 7,
+          "branchId": 6,
+          "name": "G7",
+          "brand": "CUMMINS",
+          "model": "6CTA6",
+          "serialNumber": "1709531819495",
+          "statusLog": {
+            "id": 45,
+            "generatorId": 7,
+            "date": "2024-03-24T08:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Filladhoo",
+      "generators": [
+        {
+          "id": 8,
+          "branchId": 7,
+          "name": "G1",
+          "brand": "CUMMINS",
+          "model": "6CTA7",
+          "serialNumber": "1709532654291",
+          "statusLog": {
+            "id": 54,
+            "generatorId": 15,
+            "date": "2024-02-24T22:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 9,
+          "branchId": 7,
+          "name": "G2",
+          "brand": "CUMMINS",
+          "model": "NTA11",
+          "serialNumber": "1709533489075",
+          "statusLog": {
+            "id": 67,
+            "generatorId": 15,
+            "date": "2024-03-11T22:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 10,
+          "branchId": 7,
+          "name": "G3",
+          "brand": "CUMMINS",
+          "model": "QSL6",
+          "serialNumber": "1709534323859",
+          "statusLog": {
+            "id": 71,
+            "generatorId": 15,
+            "date": "2024-03-30T13:30:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Abnormal Combustion",
+            "description": "automatic shutdown due to frequent abnormal combustion past safe level"
+          }
+        },
+        {
+          "id": 11,
+          "branchId": 7,
+          "name": "G4",
+          "brand": "VOLVO",
+          "model": "QSL4-G4",
+          "serialNumber": "1709535158643",
+          "statusLog": {
+            "id": 74,
+            "generatorId": 15,
+            "date": "2024-03-23T07:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 12,
+          "branchId": 7,
+          "name": "G5",
+          "brand": "CUMMINS",
+          "model": "NTA10",
+          "serialNumber": "1709535993427",
+          "statusLog": {
+            "id": 84,
+            "generatorId": 15,
+            "date": "2024-03-31T14:00:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Stopped For Maintenance",
+            "description": "manual shutdown to conduct maintenance and diagnostic tests"
+          }
+        },
+        {
+          "id": 13,
+          "branchId": 7,
+          "name": "G6",
+          "brand": "VOLVO",
+          "model": "QSL3-G6",
+          "serialNumber": "1709536828211",
+          "statusLog": {
+            "id": 95,
+            "generatorId": 15,
+            "date": "2024-02-28T05:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 14,
+          "branchId": 7,
+          "name": "G7",
+          "brand": "VOLVO",
+          "model": "KTA20",
+          "serialNumber": "1709537662995",
+          "statusLog": {
+            "id": 100,
+            "generatorId": 15,
+            "date": "2024-03-17T13:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 15,
+          "branchId": 7,
+          "name": "G8",
+          "brand": "VOLVO",
+          "model": "NTA15",
+          "serialNumber": "1709538497779",
+          "statusLog": {
+            "id": 105,
+            "generatorId": 15,
+            "date": "2024-01-09T23:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Hoarafushi",
+      "generators": [
+        {
+          "id": 16,
+          "branchId": 8,
+          "name": "G1",
+          "brand": "CUMMINS",
+          "model": "QSL1-G1",
+          "serialNumber": "1709539332571",
+          "statusLog": {
+            "id": 110,
+            "generatorId": 22,
+            "date": "2024-03-04T21:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 17,
+          "branchId": 8,
+          "name": "G2",
+          "brand": "CUMMINS",
+          "model": "6CTAB.6-G2",
+          "serialNumber": "1709540167355",
+          "statusLog": {
+            "id": 111,
+            "generatorId": 22,
+            "date": "2024-01-01T00:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "routine check and found healthy",
+            "description": "routine check and found healthy"
+          }
+        },
+        {
+          "id": 18,
+          "branchId": 8,
+          "name": "G3",
+          "brand": "CUMMINS",
+          "model": "6CTA8",
+          "serialNumber": "1709541002139",
+          "statusLog": {
+            "id": 116,
+            "generatorId": 22,
+            "date": "2024-03-19T20:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 19,
+          "branchId": 8,
+          "name": "G4",
+          "brand": "VOLVO",
+          "model": "KTA32",
+          "serialNumber": "1709541836923",
+          "statusLog": {
+            "id": 127,
+            "generatorId": 22,
+            "date": "2024-03-06T22:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 20,
+          "branchId": 8,
+          "name": "G5",
+          "brand": "VOLVO",
+          "model": "QSL6",
+          "serialNumber": "1709542671707",
+          "statusLog": {
+            "id": 128,
+            "generatorId": 22,
+            "date": "2024-01-01T00:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "routine check and found healthy",
+            "description": "routine check and found healthy"
+          }
+        },
+        {
+          "id": 21,
+          "branchId": 8,
+          "name": "G6",
+          "brand": "CUMMINS",
+          "model": "6CTAB.4",
+          "serialNumber": "1709543506491",
+          "statusLog": {
+            "id": 133,
+            "generatorId": 22,
+            "date": "2024-03-19T22:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 22,
+          "branchId": 8,
+          "name": "G7",
+          "brand": "CUMMINS",
+          "model": "NT-853",
+          "serialNumber": "1709544341275",
+          "statusLog": {
+            "id": 134,
+            "generatorId": 22,
+            "date": "2024-01-01T00:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "routine check and found healthy",
+            "description": "routine check and found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ihavandhoo",
+      "generators": [
+        {
+          "id": 23,
+          "branchId": 9,
+          "name": "G1",
+          "brand": "CUMMINS",
+          "model": "KTA21",
+          "serialNumber": "1709545176066",
+          "statusLog": {
+            "id": 147,
+            "generatorId": 29,
+            "date": "2024-03-22T07:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 24,
+          "branchId": 9,
+          "name": "G2",
+          "brand": "CUMMINS",
+          "model": "QSL7",
+          "serialNumber": "1709546010850",
+          "statusLog": {
+            "id": 157,
+            "generatorId": 29,
+            "date": "2024-03-29T23:30:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Electrical Faults",
+            "description": "automatic shutdown due to short circuits"
+          }
+        },
+        {
+          "id": 25,
+          "branchId": 9,
+          "name": "G3",
+          "brand": "VOLVO",
+          "model": "6CTAA8",
+          "serialNumber": "1709546845634",
+          "statusLog": {
+            "id": 162,
+            "generatorId": 29,
+            "date": "2024-03-28T10:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 26,
+          "branchId": 9,
+          "name": "G4",
+          "brand": "VOLVO",
+          "model": "NT-803",
+          "serialNumber": "1709547680418",
+          "statusLog": {
+            "id": 171,
+            "generatorId": 29,
+            "date": "2024-03-16T15:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 27,
+          "branchId": 9,
+          "name": "G5",
+          "brand": "CUMMINS",
+          "model": "NTA14",
+          "serialNumber": "1709548515202",
+          "statusLog": {
+            "id": 178,
+            "generatorId": 29,
+            "date": "2024-02-17T11:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 28,
+          "branchId": 9,
+          "name": "G6",
+          "brand": "VOLVO",
+          "model": "6CTA9",
+          "serialNumber": "1709549349986",
+          "statusLog": {
+            "id": 187,
+            "generatorId": 29,
+            "date": "2024-03-10T00:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 29,
+          "branchId": 9,
+          "name": "G7",
+          "brand": "CUMMINS",
+          "model": "NTA17",
+          "serialNumber": "1709550184770",
+          "statusLog": {
+            "id": 202,
+            "generatorId": 29,
+            "date": "2024-02-16T18:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Maarandhoo",
+      "generators": [
+        {
+          "id": 30,
+          "branchId": 10,
+          "name": "G1",
+          "brand": "CUMMINS",
+          "model": "6CTAA7",
+          "serialNumber": "1709551019561",
+          "statusLog": {
+            "id": 205,
+            "generatorId": 32,
+            "date": "2024-01-30T17:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 31,
+          "branchId": 10,
+          "name": "G2",
+          "brand": "VOLVO",
+          "model": "KTA28",
+          "serialNumber": "1709551854345",
+          "statusLog": {
+            "id": 210,
+            "generatorId": 32,
+            "date": "2024-02-10T06:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 32,
+          "branchId": 10,
+          "name": "G3",
+          "brand": "CUMMINS",
+          "model": "6CTAB.9",
+          "serialNumber": "1709552689129",
+          "statusLog": {
+            "id": 217,
+            "generatorId": 32,
+            "date": "2024-03-04T20:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Molhadhoo",
+      "generators": [
+        {
+          "id": 33,
+          "branchId": 11,
+          "name": "G1",
+          "brand": "CUMMINS",
+          "model": "NTA19",
+          "serialNumber": "1709553523916",
+          "statusLog": {
+            "id": 224,
+            "generatorId": 40,
+            "date": "2024-02-07T11:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 34,
+          "branchId": 11,
+          "name": "G2",
+          "brand": "CUMMINS",
+          "model": "NTA14",
+          "serialNumber": "1709554358700",
+          "statusLog": {
+            "id": 225,
+            "generatorId": 40,
+            "date": "2024-01-01T00:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "routine check and found healthy",
+            "description": "routine check and found healthy"
+          }
+        },
+        {
+          "id": 35,
+          "branchId": 11,
+          "name": "G3",
+          "brand": "VOLVO",
+          "model": "6CTAB.7",
+          "serialNumber": "1709555193484",
+          "statusLog": {
+            "id": 236,
+            "generatorId": 40,
+            "date": "2024-02-18T12:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 36,
+          "branchId": 11,
+          "name": "G4",
+          "brand": "VOLVO",
+          "model": "NT-897",
+          "serialNumber": "1709556028268",
+          "statusLog": {
+            "id": 246,
+            "generatorId": 40,
+            "date": "2024-03-31T07:30:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Low Oil Pressure",
+            "description": "automatic shutdown due to oil pressure dropping below safe level"
+          }
+        },
+        {
+          "id": 37,
+          "branchId": 11,
+          "name": "G5",
+          "brand": "VOLVO",
+          "model": "QSL4",
+          "serialNumber": "1709556863052",
+          "statusLog": {
+            "id": 253,
+            "generatorId": 40,
+            "date": "2024-03-18T14:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 38,
+          "branchId": 11,
+          "name": "G6",
+          "brand": "CUMMINS",
+          "model": "NTA13",
+          "serialNumber": "1709557697836",
+          "statusLog": {
+            "id": 262,
+            "generatorId": 40,
+            "date": "2024-03-30T20:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 39,
+          "branchId": 11,
+          "name": "G7",
+          "brand": "VOLVO",
+          "model": "6CTAA6-G7",
+          "serialNumber": "1709558532620",
+          "statusLog": {
+            "id": 267,
+            "generatorId": 40,
+            "date": "2024-02-07T12:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 40,
+          "branchId": 11,
+          "name": "G8",
+          "brand": "VOLVO",
+          "model": "QSL7-G8",
+          "serialNumber": "1709559367404",
+          "statusLog": {
+            "id": 284,
+            "generatorId": 40,
+            "date": "2024-03-30T16:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Muraidhoo",
+      "generators": [
+        {
+          "id": 41,
+          "branchId": 12,
+          "name": "G1",
+          "brand": "VOLVO",
+          "model": "6CTA7",
+          "serialNumber": "1709560202196",
+          "statusLog": {
+            "id": 293,
+            "generatorId": 43,
+            "date": "2024-02-06T07:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 42,
+          "branchId": 12,
+          "name": "G2",
+          "brand": "VOLVO",
+          "model": "6CTAA4-G2",
+          "serialNumber": "1709561036980",
+          "statusLog": {
+            "id": 306,
+            "generatorId": 43,
+            "date": "2024-03-28T00:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 43,
+          "branchId": 12,
+          "name": "G3",
+          "brand": "VOLVO",
+          "model": "6CTAB.4",
+          "serialNumber": "1709561871764",
+          "statusLog": {
+            "id": 317,
+            "generatorId": 43,
+            "date": "2024-03-02T13:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Thakandhoo",
+      "generators": [
+        {
+          "id": 44,
+          "branchId": 13,
+          "name": "G1",
+          "brand": "CUMMINS",
+          "model": "6CTAB.4-G1",
+          "serialNumber": "1709562706551",
+          "statusLog": {
+            "id": 324,
+            "generatorId": 46,
+            "date": "2024-03-15T07:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 45,
+          "branchId": 13,
+          "name": "G2",
+          "brand": "VOLVO",
+          "model": "6CTAB.4",
+          "serialNumber": "1709563541335",
+          "statusLog": {
+            "id": 327,
+            "generatorId": 46,
+            "date": "2024-02-28T19:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 46,
+          "branchId": 13,
+          "name": "G3",
+          "brand": "CUMMINS",
+          "model": "6CTAB.8",
+          "serialNumber": "1709564376119",
+          "statusLog": {
+            "id": 332,
+            "generatorId": 46,
+            "date": "2024-01-16T18:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Thuraakunu",
+      "generators": [
+        {
+          "id": 47,
+          "branchId": 14,
+          "name": "G1",
+          "brand": "CUMMINS",
+          "model": "NT-821",
+          "serialNumber": "1709565210906",
+          "statusLog": {
+            "id": 343,
+            "generatorId": 52,
+            "date": "2024-03-29T03:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 48,
+          "branchId": 14,
+          "name": "G2",
+          "brand": "VOLVO",
+          "model": "6CTA6",
+          "serialNumber": "1709566045690",
+          "statusLog": {
+            "id": 350,
+            "generatorId": 52,
+            "date": "2024-03-18T06:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 49,
+          "branchId": 14,
+          "name": "G3",
+          "brand": "VOLVO",
+          "model": "KTA31",
+          "serialNumber": "1709566880474",
+          "statusLog": {
+            "id": 361,
+            "generatorId": 52,
+            "date": "2024-03-31T06:30:00.000Z",
+            "state": "running",
+            "status": "issues",
+            "title": "Started With Cylinder Misfires",
+            "description": "running with cylinder misfires with in safe level"
+          }
+        },
+        {
+          "id": 50,
+          "branchId": 14,
+          "name": "G4",
+          "brand": "VOLVO",
+          "model": "NTA17",
+          "serialNumber": "1709567715258",
+          "statusLog": {
+            "id": 366,
+            "generatorId": 52,
+            "date": "2024-03-05T02:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 51,
+          "branchId": 14,
+          "name": "G5",
+          "brand": "VOLVO",
+          "model": "NTA20",
+          "serialNumber": "1709568550042",
+          "statusLog": {
+            "id": 371,
+            "generatorId": 52,
+            "date": "2024-01-20T11:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 52,
+          "branchId": 14,
+          "name": "G6",
+          "brand": "CUMMINS",
+          "model": "KTA9",
+          "serialNumber": "1709569384826",
+          "statusLog": {
+            "id": 380,
+            "generatorId": 52,
+            "date": "2024-03-20T04:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Uligam",
+      "generators": [
+        {
+          "id": 53,
+          "branchId": 15,
+          "name": "G1",
+          "brand": "CUMMINS",
+          "model": "6CTA9",
+          "serialNumber": "1709570219616",
+          "statusLog": {
+            "id": 381,
+            "generatorId": 57,
+            "date": "2024-01-01T00:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "routine check and found healthy",
+            "description": "routine check and found healthy"
+          }
+        },
+        {
+          "id": 54,
+          "branchId": 15,
+          "name": "G2",
+          "brand": "CUMMINS",
+          "model": "6CTAA6",
+          "serialNumber": "1709571054400",
+          "statusLog": {
+            "id": 388,
+            "generatorId": 57,
+            "date": "2024-02-29T01:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 55,
+          "branchId": 15,
+          "name": "G3",
+          "brand": "VOLVO",
+          "model": "6CTAA6",
+          "serialNumber": "1709571889184",
+          "statusLog": {
+            "id": 397,
+            "generatorId": 57,
+            "date": "2024-03-02T12:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 56,
+          "branchId": 15,
+          "name": "G4",
+          "brand": "CUMMINS",
+          "model": "KTA32-G4",
+          "serialNumber": "1709572723968",
+          "statusLog": {
+            "id": 407,
+            "generatorId": 57,
+            "date": "2024-03-31T18:00:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Stopped For Maintenance",
+            "description": "manual shutdown to conduct maintenance and diagnostic tests"
+          }
+        },
+        {
+          "id": 57,
+          "branchId": 15,
+          "name": "G5",
+          "brand": "CUMMINS",
+          "model": "6CTAB.5",
+          "serialNumber": "1709573558752",
+          "statusLog": {
+            "id": 414,
+            "generatorId": 57,
+            "date": "2024-03-25T11:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Vashafaru",
+      "generators": [
+        {
+          "id": 58,
+          "branchId": 16,
+          "name": "G1",
+          "brand": "VOLVO",
+          "model": "6CTA6",
+          "serialNumber": "1709574393542",
+          "statusLog": {
+            "id": 421,
+            "generatorId": 60,
+            "date": "2024-01-23T13:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 59,
+          "branchId": 16,
+          "name": "G2",
+          "brand": "CUMMINS",
+          "model": "6CTA3",
+          "serialNumber": "1709575228326",
+          "statusLog": {
+            "id": 428,
+            "generatorId": 60,
+            "date": "2024-03-14T16:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 60,
+          "branchId": 16,
+          "name": "G3",
+          "brand": "CUMMINS",
+          "model": "QSL4",
+          "serialNumber": "1709576063110",
+          "statusLog": {
+            "id": 438,
+            "generatorId": 60,
+            "date": "2024-03-30T14:00:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Generator Overspeed",
+            "description": "automatic shutdown due to exceeded engine speed past safe level"
+          }
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Dhidhdhoo",
+      "generators": [
+        {
+          "id": 61,
+          "branchId": 49,
+          "name": "G1",
+          "brand": "VOLVO",
+          "model": "NT-835",
+          "serialNumber": "1709576897897",
+          "statusLog": {
+            "id": 459,
+            "generatorId": 68,
+            "date": "2024-03-28T22:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 62,
+          "branchId": 49,
+          "name": "G2",
+          "brand": "VOLVO",
+          "model": "6CTA4",
+          "serialNumber": "1709577732681",
+          "statusLog": {
+            "id": 464,
+            "generatorId": 68,
+            "date": "2024-03-02T21:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 63,
+          "branchId": 49,
+          "name": "G3",
+          "brand": "CUMMINS",
+          "model": "6CTA3",
+          "serialNumber": "1709578567465",
+          "statusLog": {
+            "id": 475,
+            "generatorId": 68,
+            "date": "2024-03-06T22:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 64,
+          "branchId": 49,
+          "name": "G4",
+          "brand": "VOLVO",
+          "model": "6CTAA4",
+          "serialNumber": "1709579402249",
+          "statusLog": {
+            "id": 480,
+            "generatorId": 68,
+            "date": "2024-01-17T22:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 65,
+          "branchId": 49,
+          "name": "G5",
+          "brand": "CUMMINS",
+          "model": "NT-835",
+          "serialNumber": "1709580237033",
+          "statusLog": {
+            "id": 487,
+            "generatorId": 68,
+            "date": "2024-02-23T05:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 66,
+          "branchId": 49,
+          "name": "G6",
+          "brand": "CUMMINS",
+          "model": "NTA14",
+          "serialNumber": "1709581071817",
+          "statusLog": {
+            "id": 494,
+            "generatorId": 68,
+            "date": "2024-03-26T01:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 67,
+          "branchId": 49,
+          "name": "G7",
+          "brand": "VOLVO",
+          "model": "NTA15",
+          "serialNumber": "1709581906601",
+          "statusLog": {
+            "id": 505,
+            "generatorId": 68,
+            "date": "2024-03-24T19:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 68,
+          "branchId": 49,
+          "name": "G8",
+          "brand": "VOLVO",
+          "model": "NT-863-G8",
+          "serialNumber": "1709582741385",
+          "statusLog": {
+            "id": 508,
+            "generatorId": 68,
+            "date": "2024-03-30T17:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Kelaa",
+      "generators": [
+        {
+          "id": 69,
+          "branchId": 50,
+          "name": "G1",
+          "brand": "VOLVO",
+          "model": "6CTAA8-G1",
+          "serialNumber": "1709583576177",
+          "statusLog": {
+            "id": 513,
+            "generatorId": 74,
+            "date": "2024-03-21T14:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 70,
+          "branchId": 50,
+          "name": "G2",
+          "brand": "VOLVO",
+          "model": "QSL5",
+          "serialNumber": "1709584410961",
+          "statusLog": {
+            "id": 518,
+            "generatorId": 74,
+            "date": "2024-03-04T16:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 71,
+          "branchId": 50,
+          "name": "G3",
+          "brand": "CUMMINS",
+          "model": "6CTAA8",
+          "serialNumber": "1709585245745",
+          "statusLog": {
+            "id": 521,
+            "generatorId": 74,
+            "date": "2024-03-16T15:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 72,
+          "branchId": 50,
+          "name": "G4",
+          "brand": "VOLVO",
+          "model": "QSL7",
+          "serialNumber": "1709586080529",
+          "statusLog": {
+            "id": 527,
+            "generatorId": 74,
+            "date": "2024-03-25T20:30:00.000Z",
+            "state": "stopped",
+            "status": "issues",
+            "title": "Cylinder Misfires",
+            "description": "automatic shutdown due to frequent cylinder misfires past safe level"
+          }
+        },
+        {
+          "id": 73,
+          "branchId": 50,
+          "name": "G5",
+          "brand": "CUMMINS",
+          "model": "NT-893",
+          "serialNumber": "1709586915313",
+          "statusLog": {
+            "id": 528,
+            "generatorId": 74,
+            "date": "2024-01-01T00:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "routine check and found healthy",
+            "description": "routine check and found healthy"
+          }
+        },
+        {
+          "id": 74,
+          "branchId": 50,
+          "name": "G6",
+          "brand": "CUMMINS",
+          "model": "NTA20",
+          "serialNumber": "1709587750097",
+          "statusLog": {
+            "id": 535,
+            "generatorId": 74,
+            "date": "2024-03-28T12:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Utheem",
+      "generators": [
+        {
+          "id": 75,
+          "branchId": 51,
+          "name": "G1",
+          "brand": "CUMMINS",
+          "model": "QSL4",
+          "serialNumber": "1709588584887",
+          "statusLog": {
+            "id": 546,
+            "generatorId": 79,
+            "date": "2024-03-29T05:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 76,
+          "branchId": 51,
+          "name": "G2",
+          "brand": "VOLVO",
+          "model": "NT-895-G2",
+          "serialNumber": "1709589419671",
+          "statusLog": {
+            "id": 549,
+            "generatorId": 79,
+            "date": "2024-03-07T10:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 77,
+          "branchId": 51,
+          "name": "G3",
+          "brand": "VOLVO",
+          "model": "QSL9",
+          "serialNumber": "1709590254455",
+          "statusLog": {
+            "id": 556,
+            "generatorId": 79,
+            "date": "2024-02-25T08:30:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 78,
+          "branchId": 51,
+          "name": "G4",
+          "brand": "VOLVO",
+          "model": "6CTAA3-G4",
+          "serialNumber": "1709591089239",
+          "statusLog": {
+            "id": 561,
+            "generatorId": 79,
+            "date": "2024-02-08T22:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        },
+        {
+          "id": 79,
+          "branchId": 51,
+          "name": "G5",
+          "brand": "CUMMINS",
+          "model": "KTA38-G5",
+          "serialNumber": "1709591924023",
+          "statusLog": {
+            "id": 574,
+            "generatorId": 79,
+            "date": "2024-02-21T06:00:00.000Z",
+            "state": "running",
+            "status": "healthy",
+            "title": "Conducted Maintenance Service",
+            "description": "conducted maintenance service diagnostic tests. results found healthy"
+          }
+        }
+      ]
+    }
+  ]
+}

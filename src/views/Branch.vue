@@ -11,6 +11,7 @@ const { dashboardBranchId: id } = route.params
 const reportData = inject('report')
 
 const data = getBranchData(id, reportData)
+console.log(new Date())
 const dateRange = ref({ from: '2024/01/08', to: '2024/02/17' })
 
 const loadData = ref(getBranchLoad(dateRange.value, data))
@@ -43,12 +44,12 @@ function navGen(generatorId) {
           <div class="text-subtitle1 text-weight-medium text-uppercase">{{ data?.name }}</div>
           <div class="date-picker">
             <q-popup-proxy cover transition-show="scale" transition-hide="scale">
-            <q-date v-model="dateRange" range @range-end="refresh()">
-              <div class="row items-center justify-end">
-                <q-btn v-close-popup label="Close" color="primary" flat />
-              </div>
-            </q-date>
-          </q-popup-proxy>
+              <q-date v-model="dateRange" range @range-end="refresh()">
+                <div class="row items-center justify-end">
+                  <q-btn v-close-popup label="Close" color="primary" flat />
+                </div>
+              </q-date>
+            </q-popup-proxy>
             <q-icon name="sym_r_date_range" class="text-subtitle1" />
             <span>{{ date.formatDate(new Date(dateRange?.from), 'DD MMMM YYYY') }}</span>
             <q-icon name="sym_r_arrow_forward" />
@@ -79,7 +80,7 @@ function navGen(generatorId) {
             <div class="col-2 row">Generators</div>
             <div class="col">
               <div class="row justify-between no-wrap">
-                <span v-for="value in [100,200,300,400,500,600,700,800,900,1000]">{{ value }}</span>
+                <span v-for="value in [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]">{{ value }}</span>
                 <span style="margin-right: -5%;">KW</span>
               </div>
             </div>
@@ -89,20 +90,24 @@ function navGen(generatorId) {
 
           <div v-for="generator in data?.generators" class="row items-center q-mb-md">
             <div class="col-1">
-              <div class="row q-pa-xs justify-around rounded-borders" :class="generator.statusLogs[0].state === 'running' ? 'bg-green-2' : 'bg-blue-grey-2'">
-                <div class="text-green-9 text-weight-medium">{{ Math.round(generator.availableCapacity /
-                  generator.installCapacity *
-                  100) }}%</div>
-                <div class="text-green-10 text-weight-bold">{{ generator.name }}</div>
+              <div class="row q-pa-xs justify-around rounded-borders"
+                :class="generator.statusLogs[generator.statusLogs.length - 1].state === 'running' ? 'bg-green-2' : 'bg-blue-grey-2'">
+                <div class="text-weight-medium"
+                  :class="generator.statusLogs[generator.statusLogs.length - 1].state === 'running' ? 'text-green-9' : 'text-blue-grey-9'">
+                  {{ Math.round(generator.availableCapacity /
+    generator.installCapacity *
+    100) }}%</div>
+                <div class="text-weight-bold"
+                  :class="generator.statusLogs[generator.statusLogs.length - 1].state === 'running' ? 'text-green-9' : 'text-blue-grey-9'">
+                  {{ generator.name }}</div>
               </div>
             </div>
             <div class="col-1 row justify-center">
-              <pre>{{ generator.statusLogs[0].status }}</pre>
-              <q-icon v-if="generator.statusLogs[0].status !== 'healthy'" class="text-h6" name="sym_r_error" />
+              <q-icon v-if="generator.statusLogs[generator.statusLogs.length - 1].status !== 'healthy'"
+                class="text-h6 text-red-6 text-weight-bold" name="sym_r_error" />
             </div>
             <div class="col-grow">
-              <div
-                class="row justify-end bg-blue-2 q-pa-xs rounded-borders" 
+              <div class="row justify-end bg-blue-2 q-pa-xs rounded-borders"
                 :style="`width: ${Math.round(getGeneratorLoadValue(generator.id).max.load / 1000 * 100)}%`">
                 {{ Math.round(getGeneratorLoadValue(generator.id).max.load) }}
               </div>

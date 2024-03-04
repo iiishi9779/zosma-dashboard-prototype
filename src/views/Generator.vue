@@ -1,5 +1,5 @@
 <script setup>
-import { ref, inject } from "vue"
+import { ref, inject, onUpdated } from "vue"
 import { useRoute } from 'vue-router'
 import IssueDialog from "./IssueDialog.vue"
 import { getBranchData, getGeneratorData } from "../functions/branch-extractor"
@@ -8,10 +8,18 @@ const route = useRoute()
 
 const reportData = inject('report')
 
+const reportRef = ref(reportData)
+
 const { dashboardBranchId: branchId, dashboardGeneratorId: generatorId } = route.params
 
-const branchData = getBranchData(branchId, reportData)
-const data = getGeneratorData(generatorId, branchData)
+const branchData = getBranchData(branchId, reportRef.value)
+const data = ref(getGeneratorData(generatorId, branchData))
+
+
+const createLog = (log) => {
+  data.value.statusLogs.push(log)
+  console.log(data.value)
+}
 
 const openDialog = ref(false)
 </script>
@@ -23,58 +31,58 @@ const openDialog = ref(false)
     </div>
     <div class="row q-gutter-md">
       <div class="col">
-          <div class="col">
-            <fieldset class="col-5 generator-details q-mb-sm">
-              <legend>Generator Details</legend>
-              <div class="row">
-                <span class="col-6">serial No.</span>
-                <span class="col q-pl-lg">{{ data.serialNumber }}</span>
+        <div class="col">
+          <fieldset class="col-5 generator-details q-mb-sm">
+            <legend>Generator Details</legend>
+            <div class="row">
+              <span class="col-6">serial No.</span>
+              <span class="col q-pl-lg">{{ data.serialNumber }}</span>
+            </div>
+            <hr>
+            <div class="row">
+              <span class="col-6">model no.</span>
+              <span class="col q-pl-lg">{{ data.model }}</span>
+            </div>
+            <hr>
+            <div class="row">
+              <span class="col-6">Genset (Brand)</span>
+              <span class="col q-pl-lg">{{ data.brand }}</span>
+            </div>
+            <hr>
+            <div class="row">
+              <span class="col-6">Capacity (available / install)</span>
+              <div class="col q-pl-lg">
+                <span>{{ data.availableCapacity }} / {{ data.installedCapacity }}</span>
+                <span class="q-pl-sm">({{ Math.round(data.availableCapacity /
+        data.installCapacity *
+        100) }}%)</span>
               </div>
-              <hr>
-              <div class="row">
-                <span class="col-6">model no.</span>
-                <span class="col q-pl-lg">{{ data.model }}</span>
-              </div>
-              <hr>
-              <div class="row">
-                <span class="col-6">Genset (Brand)</span>
-                <span class="col q-pl-lg">{{ data.brand }}</span>
-              </div>
-              <hr>
-              <div class="row">
-                <span class="col-6">Capacity (available / install)</span>
-                <div class="col q-pl-lg">
-                  <span>{{ data.availableCapacity }} / {{ data.installedCapacity }}</span>
-                  <span class="q-pl-sm">({{ Math.round(data.availableCapacity /
-                    data.installCapacity *
-                    100) }}%)</span>
-                </div>
-              </div>
-            </fieldset>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+      <div class="col">
+        <fieldset class="col-5 generator-details q-mb-sm">
+          <legend>Generator Status</legend>
+          <div class="row">
+            <span class="col-6">State</span>
+            <span class="col q-pl-lg">{{ data.statusLogs[data.statusLogs.length - 1].state }}</span>
           </div>
-    </div>
-    <div class="col">
-      <fieldset class="col-5 generator-details q-mb-sm">
-        <legend>Generator Status</legend>
-        <div class="row">
-          <span class="col-6">State</span>
-          <span class="col q-pl-lg">{{ data.statusLogs[0].state }}</span>
-        </div>
-        <hr>
-        <div class="row">
-          <span class="col-6">Title</span>
-          <span class="col q-pl-lg">{{ data.statusLogs[0].title }}</span>
-        </div>
-        <hr>
-        <div class="row">
-          <span class="col-6">Description</span>
-          <span class="col q-pl-lg">{{ data.statusLogs[0].description }}</span>
-        </div>
-      </fieldset>
-    </div>
+          <hr>
+          <div class="row">
+            <span class="col-6">Title</span>
+            <span class="col q-pl-lg">{{ data.statusLogs[data.statusLogs.length - 1].title }}</span>
+          </div>
+          <hr>
+          <div class="row">
+            <span class="col-6">Description</span>
+            <span class="col q-pl-lg">{{ data.statusLogs[data.statusLogs.length - 1].description }}</span>
+          </div>
+        </fieldset>
+      </div>
     </div>
   </div>
-  <issue-dialog v-model="openDialog"></issue-dialog>
+  <issue-dialog @create-log="createLog" v-model="openDialog"></issue-dialog>
 </template>
 
 <style lang="scss"></style>
